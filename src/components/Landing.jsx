@@ -7,7 +7,7 @@ import Link from "next/link"
 
 function Landing() {
   return (
-    <div className="bg-[#F3F9F5] h-[100vh] w-full max-h-screen">
+    <div className="bg-[#F3F9F5] h-full w-full max-h-screen">
       <div className="w-auto h-auto flex items-start justify-start bg-[#F3F9F5]  mb-20">
         <Image src={E1} alt="E1" className="w-80 sm:w-80 md:w-96 " />
       </div>
