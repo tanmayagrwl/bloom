@@ -2,6 +2,9 @@ import Image from "next/image"
 import logo from "@/assets/logo.svg"
 import E1 from "@/assets/E1.png"
 import E2 from "@/assets/E2.png"
+import { useRouter } from "next/navigation"
+import Link from "next/link"
+
 function Landing() {
   return (
     <div className="bg-[#F3F9F5] h-screen w-full">
@@ -17,9 +20,11 @@ function Landing() {
           </div>
         </div>
         <div>
-          <button className="rounded-full mt-6 border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[25vh] font-bold font-sans text-[#002140] text-xl">
-            Explore Now
-          </button>
+          <Link href="/listing">
+            <button className="rounded-full mt-6 border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[25vh] font-bold font-sans text-[#002140] text-xl">
+              Explore Now
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex items-end justify-end w-full">

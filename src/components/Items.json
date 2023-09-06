@@ -1,0 +1,32 @@
+[
+  {
+    "Pid": 1,
+    "image": "../assets/plant1.png",
+    "name": "Plant A",
+    "desc": "Lorem"
+  },
+  {
+    "Pid": 2,
+    "image": "../assets/plant2.png",
+    "name": "Plant B",
+    "desc": "Lorem"
+  },
+  {
+    "Pid": 3,
+    "image": "../assets/plant3.png",
+    "name": "Plant C",
+    "desc": "Lorem"
+  },
+  {
+    "Pid": 4,
+    "image": "../assets/plant4.png",
+    "name": "Plant D",
+    "desc": "Lorem"
+  },
+  {
+    "Pid": 5,
+    "image": "../assets/plant5.png",
+    "name": "Plant E",
+    "desc": "Lorem"
+  }
+]
