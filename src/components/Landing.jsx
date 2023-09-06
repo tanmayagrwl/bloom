@@ -15,7 +15,7 @@ function Landing() {
       <div className="flex flex-col w-screen z-10 h-auto items-center justify-center mb-44">
         <div className="flex flex-col sm:flex-col md:flex-row  justify-center items-center">
           <Image src={logo} alt="logo" className="w-[20%]" />
-          <div className="font-bold text-5xl ml-10 sm:ml-10 md:ml-0 font-sans text-[#002140]">
+          <div className="font-bold text-3xl sm:text-3xl md:text-5xl ml-10 sm:ml-10 md:ml-0 font-sans text-[#002140]">
             Bloom- Buy Blooming Pots
           </div>
         </div>
