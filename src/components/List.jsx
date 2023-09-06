@@ -1,7 +1,7 @@
 import React from "react"
 import data from "./Items.json"
 import Image from "next/image"
-import plant4 from "/public/assets/plant4.png"
+import Link from "next/link"
 
 function List(props) {
   return (

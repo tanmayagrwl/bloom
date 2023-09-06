@@ -21,7 +21,7 @@ function Landing() {
         </div>
         <div>
           <Link href="/listing">
-            <button className="rounded-full mt-6 border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[25vh] font-bold font-sans text-[#002140] text-xl">
+            <button className="rounded-full mt-6  border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[25vh] font-bold font-sans text-[#002140] text-xl">
               Explore Now
             </button>
           </Link>
