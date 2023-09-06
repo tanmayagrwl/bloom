@@ -1,13 +1,13 @@
 import Image from "next/image"
-import logo from "@/assets/logo.svg"
-import E1 from "@/assets/E1.png"
-import E2 from "@/assets/E2.png"
+import logo from "/public/assets/logo.svg"
+import E1 from "/public/assets/E1.png"
+import E2 from "/public/assets/E2.png"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 
 function Landing() {
   return (
-    <div className="bg-[#F3F9F5] h-screen w-full">
+    <div className="bg-[#F3F9F5] h-[100vh] w-full max-h-screen">
       <div className="w-auto h-auto flex items-start justify-start bg-[#F3F9F5]  mb-20">
         <Image src={E1} alt="E1" className="w-80 sm:w-80 md:w-96 " />
       </div>
@@ -28,11 +28,7 @@ function Landing() {
         </div>
       </div>
       <div className="flex items-end justify-end w-full">
-        <Image
-          src={E2}
-          alt="E2"
-          className="w-80 sm:w-80 md:w-96 sm:mt-1 md;mt-0  mt-1 "
-        />
+        <Image src={E2} alt="E2" className="w-80 sm:w-80 md:w-96  " />
       </div>
     </div>
   )
