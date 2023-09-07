@@ -6,8 +6,10 @@ import cart from "/public/assets/cart.png"
 import Link from "next/link"
 import { useSnapshot, proxy } from "valtio"
 import { state } from "@/components/State"
+import List from "./List"
 
 export const Navbar = () => {
+  const snap = useSnapshot(state)
   return (
     <div className="flex w-full h-24 bg-[#DEEAD8] justify-between ">
       <Link href="/">
