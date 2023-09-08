@@ -2,7 +2,6 @@
 import React from "react"
 import data from "./Items.json"
 import Image from "next/image"
-import Link from "next/link"
 import { useSnapshot, proxy } from "valtio"
 import { state } from "@/components/State"
 function List(props) {

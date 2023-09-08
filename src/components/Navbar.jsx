@@ -12,16 +12,18 @@ export const Navbar = () => {
   const snap = useSnapshot(state)
   return (
     <div className="flex w-full h-24 bg-[#DEEAD8] justify-between ">
-      <Link href="/">
+      <Link href="/listing">
         <div className="flex items-center h-full">
           <Image src={logo} alt="logo" className="w-[20%]" />
           <div className="text-[#002140] font-bold text-2xl ">Bloom</div>
         </div>
       </Link>
-      <div className="w-40 justify-end gap-4 h-full flex items-center mr-10">
-        <Image src={cart} alt="logo" className="h-[40%] w-[40%] " />
-        <p className="text-[#002140] font-bold "> {state.sum}</p>
-      </div>
+      <Link href="/bill">
+        <div className="w-40 justify-end gap-4 h-full flex items-center mr-10">
+          <Image src={cart} alt="logo" className="h-[40%] w-[40%] " />
+          <p className="text-[#002140] font-bold font-sans"> {state.sum}</p>
+        </div>
+      </Link>
     </div>
   )
 }
