@@ -95,7 +95,7 @@ function Cart() {
             state.count4 * 40 +
             state.count5 * 50}
         </div>
-        <div className="flex gap-10">
+        <div className="flex flex-col gap-2">
           <Link href="/listing">
             <button className="rounded-full mt-6  border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[15vh] font-bold font-sans text-[#002140] text-md">
               Shop more?
