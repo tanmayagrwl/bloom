@@ -101,8 +101,18 @@ function Cart() {
               Shop more?
             </button>
           </Link>
-          <Link href="/">
-            <button className="rounded-full mt-6  border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[15vh] font-bold font-sans text-[#002140] text-md">
+          <Link href="/Chout">
+            <button
+              className="rounded-full mt-6  border-4 border-[#002140] bg-[#DEEAD8] active:bg-[#aece9e] hover:bg-[#cbedba] px-4 py-2 outline-none  w-[15vh] font-bold font-sans text-[#002140] text-md"
+              onClick={() => {
+                state.count1 = 0
+                state.count2 = 0
+                state.count3 = 0
+                state.count4 = 0
+                state.count5 = 0
+                state.sum = 0
+              }}
+            >
               Checkout
             </button>
           </Link>
@@ -111,8 +121,8 @@ function Cart() {
       <div
         className={`flex flex-col w-full pt-20 text-[#002140] font-sans text-2xl font-normal items-center justify-center ${empDisplay}`}
       >
-        Your Cart is Empty{" "}
-        <div className="underline">
+        Your Cart is Empty
+        <div className="hover:underline">
           <Link href="/listing"> Shop now</Link>
         </div>
       </div>
